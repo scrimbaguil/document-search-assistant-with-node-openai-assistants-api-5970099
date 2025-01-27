@@ -11,30 +11,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-// Test route
-app.get("/app-test", (req, res) => {
+// Assistant ID
+const { assistantId } = require("./assistant.js");
+
+// User /query route
+app.post("/query", async (req, res) => {
   try {
-    if (!process.env.OPENAI_API_KEY) {
-      throw new Error("API key is missing or not set in the environment.");
-    }
-    res.send("OpenAI API key is loaded. Ready to connect!");
   } catch (error) {
-    console.error("Configuration error:", error.message);
-    res.status(500).send("OpenAI API key is not configured properly.");
+    console.error("Error handling query:", error);
+    res.status(500).json({ error: "Error while processing your request." });
   }
-});
-
-// Test /query route
-app.post("/query", (req, res) => {
-  const { message } = req.body;
-
-  if (!message) {
-    return res.status(400).json({ error: "Message is required." });
-  }
-
-  res.json({
-    response: `You said: "${message}"`,
-  });
 });
 
 // Start the server
