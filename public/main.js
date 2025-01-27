@@ -1,15 +1,13 @@
-// Front-end JavaScript
 const messageInput = document.getElementById("chat-message");
 const responseDiv = document.querySelector(".messages");
 const inputForm = document.querySelector(".input-area");
-let threadId = null;
 
 inputForm.addEventListener("submit", sendQuery);
 
 async function sendQuery(event) {
   event.preventDefault();
   const userMessage = messageInput.value.trim();
-  responseDiv.innerHTML = "";
+  responseDiv.innerHTML = "Assistant is thinking...";
 
   if (!userMessage) {
     responseDiv.innerHTML = "Please enter a message.";
@@ -20,7 +18,7 @@ async function sendQuery(event) {
     const response = await fetch("/query", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: userMessage, threadId }),
+      body: JSON.stringify({ message: userMessage }),
     });
 
     if (!response.ok) {
@@ -29,7 +27,6 @@ async function sendQuery(event) {
     }
 
     const data = await response.json();
-    threadId = data.threadId; // Save threadId for future requests
 
     responseDiv.innerHTML = `<p><strong>Assistant:</strong> ${data.response}</p>`;
   } catch (error) {

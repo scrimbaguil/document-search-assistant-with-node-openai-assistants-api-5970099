@@ -11,30 +11,48 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-// Test route
-app.get("/app-test", (req, res) => {
+// Assistant ID
+const { assistantId } = require("./assistant.js");
+
+// User /query route
+app.post("/query", async (req, res) => {
+  const userMessage = req.body.message;
+
+  let threadId = null;
+
   try {
-    if (!process.env.OPENAI_API_KEY) {
-      throw new Error("API key is missing or not set in the environment.");
+    if (!threadId) {
+      const threadResponse = await openai.beta.threads.create();
+      threadId = threadResponse.id;
     }
-    res.send("OpenAI API key is loaded. Ready to connect!");
+
+    await openai.beta.threads.messages.create(threadId, {
+      role: "user",
+      content: userMessage,
+    });
+
+    const run = await openai.beta.threads.runs.createAndPoll(threadId, {
+      assistant_id: assistantId,
+    });
+
+    if (run.status === "completed") {
+      const messagesResponse = await openai.beta.threads.messages.list(
+        threadId
+      );
+      const allMessages = messagesResponse.data;
+
+      const assistantMessage = allMessages
+        .filter(m => m.role === "assistant")
+        .pop();
+
+      return res.json({ response: assistantMessage.content[0].text.value });
+    } else {
+      console.log(run.status);
+    }
   } catch (error) {
-    console.error("Configuration error:", error.message);
-    res.status(500).send("OpenAI API key is not configured properly.");
+    console.error("Error handling query:", error);
+    res.status(500).json({ error: "Error while processing your request." });
   }
-});
-
-// Test /query route
-app.post("/query", (req, res) => {
-  const { message } = req.body;
-
-  if (!message) {
-    return res.status(400).json({ error: "Message is required." });
-  }
-
-  res.json({
-    response: `You said: "${message}"`,
-  });
 });
 
 // Start the server
