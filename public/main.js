@@ -1,40 +1,45 @@
-// Front-end JavaScript
 const messageInput = document.getElementById("chat-message");
 const responseDiv = document.querySelector(".messages");
 const inputForm = document.querySelector(".input-area");
-let threadId = null;
 
 inputForm.addEventListener("submit", sendQuery);
 
 async function sendQuery(event) {
   event.preventDefault();
   const userMessage = messageInput.value.trim();
-  responseDiv.innerHTML = "";
-
-  if (!userMessage) {
-    responseDiv.innerHTML = "Please enter a message.";
-    return;
-  }
+  responseDiv.textContent = "Assistant is thinking...\n";
 
   try {
     const response = await fetch("/query", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: userMessage, threadId }),
+      body: JSON.stringify({ message: userMessage }),
     });
 
     if (!response.ok) {
-      responseDiv.innerHTML = "Error fetching response. Please try again.";
+      responseDiv.textContent = "Error fetching response. Please try again.";
       return;
     }
 
-    const data = await response.json();
-    threadId = data.threadId; // Save threadId for future requests
+    // Read the streamed response
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder("utf-8");
 
-    responseDiv.innerHTML = `<p><strong>Assistant:</strong> ${data.response}</p>`;
+    responseDiv.textContent = "";
+
+    // Continuously read data from the response body in small chunks using the reader
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break; // end of stream
+
+      // Decode the chunk and append it to the DOM
+      const chunk = decoder.decode(value, { stream: true });
+      responseDiv.textContent += chunk;
+    }
   } catch (error) {
     console.error("Error fetching response:", error);
-    responseDiv.innerHTML = "Error connecting to the server. Please try again.";
+    responseDiv.textContent =
+      "Error connecting to the server. Please try again.";
   }
 
   messageInput.value = "";
