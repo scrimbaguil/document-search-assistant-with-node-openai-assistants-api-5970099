@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Document Search Assistant</title>
+</head>
+<body>
+  <div id="app" class="container">
+    <header class="chat-header">
+      <img class="logo" src="/logo.png">
+    </header>
+    <form class="input-area" aria-label="Chat Input Area">
+      <label for="chat-message" class="visually-hidden">Chat Input</label>
+      <input 
+        type="text" 
+        id="chat-message" 
+        class="message-input" 
+        placeholder="How can I help?" 
+        aria-label="Type your message here"
+        required 
+      >
+      <button 
+        type="submit" 
+        class="send-button" 
+        aria-label="Send Message"
+      >
+        <span class="icn-send material-symbols-outlined" aria-hidden="true">send</span>
+      </button>
+    </form>      
+    <div class="chat-window">
+      <div class="messages"></div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
