@@ -2,6 +2,7 @@
 const openai = require("./config");
 const assistantId = "";
 const vectorStoreID = "";
+const threadId = "";
 
 // create assistant
 async function createAssistant() {
@@ -35,4 +36,47 @@ async function updateAssistant() {
     console.error("Error updating assistant: ", error.message);
   }
 }
-updateAssistant();
+// updateAssistant();
+
+async function createThread() {
+  const thread = await openai.beta.threads.create();
+  console.log("Thread created with the ID: ", thread.id);
+}
+// createThread();
+
+async function addMessage(threadId) {
+  const message = await openai.beta.threads.messages.create(threadId, {
+    role: "user",
+    content: "What are the key terms in the contract?",
+  });
+  console.log("User message added: ", message.id);
+}
+// addMessage(threadId);
+
+async function runAssistant(assistantID, threadId) {
+  const run = await openai.beta.threads.runs.createAndPoll(threadId, {
+    assistant_id: assistantID,
+    instructions: "Respond as a helpful assistant. Address the user as Guil.",
+  });
+
+  if (run.status === "completed") {
+    return run.thread_id;
+  } else {
+    throw new Error(`Run failed with status: ${run.status}`);
+  }
+}
+
+async function getAssistantResponse(threadId) {
+  const messages = await openai.beta.threads.messages.list(threadId);
+
+  // Display messages
+  for (const message of messages.data.reverse()) {
+    console.log(`${message.role} > ${message.content[0].text.value}`);
+  }
+}
+
+runAssistant(assistantId, threadId).then(updatedThreadId =>
+  getAssistantResponse(updatedThreadId).catch(error =>
+    console.error(`Error: ${error.message}`)
+  )
+);
