@@ -1,7 +1,7 @@
 // Script to create the assistant
 const openai = require("./config");
 const assistantId = "";
-const vectorStoreID = "";
+const { vectorStoreID } = require("./upload");
 const threadId = "";
 
 // create assistant
@@ -47,16 +47,17 @@ async function createThread() {
 async function addMessage(threadId) {
   const message = await openai.beta.threads.messages.create(threadId, {
     role: "user",
-    content: "What are the key terms in the contract?",
+    content: "How can I apply for a job at XYZ Robotics?",
   });
   console.log("User message added: ", message.id);
 }
-// addMessage(threadId);
 
 async function runAssistant(assistantID, threadId) {
   const run = await openai.beta.threads.runs.createAndPoll(threadId, {
     assistant_id: assistantID,
-    instructions: "Respond as a helpful assistant. Address the user as Guil.",
+    // overwrite the assistant instructions if needed
+    instructions:
+      "Respond as a helpful assistant. Address the user as Guil. When responding to questions, search the vector store first for relevant answers. If no match is found, provide a polite response indicating the information is unavailable.",
   });
 
   if (run.status === "completed") {
@@ -75,16 +76,9 @@ async function getAssistantResponse(threadId) {
   }
 }
 
-// runAssistant(assistantId, threadId).then(updatedThreadId =>
-//   getAssistantResponse(updatedThreadId).catch(error =>
-//     console.error(`Error: ${error.message}`)
-//   )
-// );
-
-async function listFiles() {
-  const vectorStoreFiles = await openai.beta.vectorStores.files.list(
-    vectorStoreID
-  );
-  console.log(vectorStoreFiles);
-}
-listFiles();
+// addMessage(threadId);
+runAssistant(assistantId, threadId).then(updatedThreadId =>
+  getAssistantResponse(updatedThreadId).catch(error =>
+    console.error(`Error: ${error.message}`)
+  )
+);
