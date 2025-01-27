@@ -11,30 +11,45 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-// Test route
-app.get("/app-test", (req, res) => {
+// Assistant ID
+const { assistantId } = require("./assistant.js");
+
+// User /query route
+app.post("/query", async (req, res) => {
+  const userMessage = req.body.message;
+  // Set headers to enable streaming responses
+  res.setHeader("Content-Type", "text/plain; charset=utf-8");
+
   try {
-    if (!process.env.OPENAI_API_KEY) {
-      throw new Error("API key is missing or not set in the environment.");
+    // Create a run with streaming enabled
+    const stream = await openai.beta.threads.createAndRun({
+      assistant_id: assistantId,
+      thread: {
+        messages: [{ role: "user", content: userMessage }],
+      },
+      stream: true, // Enable streaming
+      max_completion_tokens: 300,
+    });
+
+    // Read the streaming events in a loop
+    for await (const event of stream) {
+      const content = event?.data?.delta?.content;
+      if (!content) continue;
+
+      // For each piece, write out the text to the response
+      for (const chunk of content) {
+        const text = chunk?.text?.value;
+        if (text) {
+          res.write(text);
+        }
+      }
     }
-    res.send("OpenAI API key is loaded. Ready to connect!");
+    // End the response
+    res.end();
   } catch (error) {
-    console.error("Configuration error:", error.message);
-    res.status(500).send("OpenAI API key is not configured properly.");
+    console.error("Error handling query:", error);
+    res.status(500).json({ error: "Error while processing your request." });
   }
-});
-
-// Test /query route
-app.post("/query", (req, res) => {
-  const { message } = req.body;
-
-  if (!message) {
-    return res.status(400).json({ error: "Message is required." });
-  }
-
-  res.json({
-    response: `You said: "${message}"`,
-  });
 });
 
 // Start the server

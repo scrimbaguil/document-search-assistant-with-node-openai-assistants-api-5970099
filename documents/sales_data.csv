@@ -1,0 +1,501 @@
+Date,Region,Product,Quantity Sold,Unit Price (USD),Total Sales (USD),Salesperson
+2023-12-13,North America,Humanoid Robot B,40,12197.788496673076,487911.54,Whitney Miller
+2024-01-06,Asia,Maintenance Plan,46,5544.423729956099,255043.49,Tara Beck
+2023-02-24,Europe,Maintenance Plan,21,35409.49659749991,743599.43,John Smith
+2023-11-05,Europe,Humanoid Robot A,39,36549.89009571825,1425445.71,Mark Beck
+2024-06-26,South America,AI Software Suite,19,42435.246075195864,806269.68,Brandon Alexander
+2024-11-28,Europe,Maintenance Plan,48,16367.951883479946,785661.69,Joel Gomez
+2023-07-05,Asia,Humanoid Robot A,3,22206.36404375341,66619.09,Amanda Wade
+2024-02-24,North America,Humanoid Robot B,26,28799.854887811907,748796.23,David Lewis
+2025-01-03,Africa,Humanoid Robot B,44,8483.577490488926,373277.41,Sierra Bishop
+2025-01-09,Australia,AI Software Suite,26,29262.923200516587,760836.0,Lindsay Cameron
+2024-01-20,North America,Humanoid Robot A,38,24943.618377642168,947857.5,Morgan Reyes
+2023-09-01,South America,Maintenance Plan,15,45984.60073099903,689769.01,Gabriela Mcbride
+2023-10-27,Europe,AI Software Suite,15,43183.82548966286,647757.38,Kevin Aguilar
+2023-11-03,North America,Humanoid Robot B,9,37570.024714294545,338130.22,Tracey Miller
+2023-03-30,Europe,Maintenance Plan,48,37754.567228608576,1812219.23,Troy Green
+2023-12-17,North America,Humanoid Robot A,23,31338.66694090822,720789.34,Michelle Murphy
+2024-01-01,Europe,Humanoid Robot A,20,42312.00203259267,846240.04,Patrick Frazier
+2023-09-04,Australia,AI Software Suite,17,26341.714907529848,447809.15,Jesus Chung
+2024-05-29,North America,Humanoid Robot A,11,24146.22862816502,265608.51,Thomas Ibarra
+2024-10-29,Asia,AI Software Suite,8,49284.61729423892,394276.94,Denise Martinez
+2023-09-03,Africa,Humanoid Robot A,48,29503.41188621832,1416163.77,Teresa Branch
+2023-05-18,Africa,Humanoid Robot A,41,38486.81292537757,1577959.33,Gary Aguirre
+2023-09-07,North America,Maintenance Plan,34,5344.421971525512,181710.35,Allison Henson
+2023-06-10,Asia,Maintenance Plan,44,39926.629784316545,1756771.71,Sarah Williams DDS
+2024-06-23,Australia,AI Software Suite,41,37153.994696164504,1523313.78,Jillian Perez
+2024-04-13,Australia,Humanoid Robot A,16,10747.57753887436,171961.24,Michael Shields
+2023-10-03,Australia,Humanoid Robot B,47,43202.50392831809,2030517.68,Barbara Nolan
+2023-03-21,Europe,AI Software Suite,48,15350.9012298835,736843.26,Derek Powell
+2023-06-21,North America,Maintenance Plan,9,37791.04889886901,340119.44,Stanley Paul
+2023-05-02,Europe,Humanoid Robot A,21,29620.83001590907,622037.43,Angela Owens
+2024-07-27,North America,AI Software Suite,47,16303.249150528545,766252.71,Christopher Nicholson
+2023-09-21,North America,Maintenance Plan,47,42669.94863464409,2005487.59,Kelly Scott
+2024-10-04,Europe,Humanoid Robot A,44,36979.312673131055,1627089.76,Anthony Banks
+2023-07-06,Australia,Humanoid Robot A,17,16365.801421090775,278218.62,Virginia Hall
+2024-09-14,Africa,Humanoid Robot A,36,36442.12050138354,1311916.34,Christopher Rose
+2024-02-24,North America,Humanoid Robot A,44,41545.39626367839,1827997.44,Brittany Wright
+2024-01-05,Asia,AI Software Suite,28,46025.761975915884,1288721.34,Jonathan Zimmerman
+2023-01-25,South America,AI Software Suite,26,5702.577129316779,148267.01,Robin Thompson
+2023-09-19,Australia,Humanoid Robot A,38,33609.74610296174,1277170.35,Debra Robertson
+2024-06-01,Europe,Humanoid Robot A,19,30758.33848513502,584408.43,Jessica Morris
+2023-07-15,North America,Humanoid Robot B,5,35829.97164390131,179149.86,Wanda Thomas
+2024-01-18,Africa,AI Software Suite,1,23169.5155634313,23169.52,Eric Young
+2025-01-14,Asia,Maintenance Plan,10,19302.72231414564,193027.22,Christopher Hall
+2023-05-05,Asia,Humanoid Robot A,37,28338.710281894455,1048532.28,Katherine Harris
+2023-04-15,Asia,AI Software Suite,31,47117.61946806533,1460646.2,Taylor Taylor
+2023-09-17,Australia,AI Software Suite,27,39568.06117903137,1068337.65,Benjamin Fleming
+2024-03-16,Africa,AI Software Suite,44,17961.703197903676,790314.94,Hannah Le
+2024-01-14,Australia,Humanoid Robot A,26,38707.42882707581,1006393.15,Carly Walker
+2023-03-19,Australia,AI Software Suite,20,22620.603518828866,452412.07,Jennifer Sherman
+2025-01-11,South America,Maintenance Plan,49,28875.48521428925,1414898.78,Eric Smith
+2024-11-01,Africa,AI Software Suite,28,36187.23609265158,1013242.61,Tanner Stevens
+2024-11-14,North America,Humanoid Robot A,42,8416.21342930081,353480.96,Kimberly Turner
+2024-12-27,South America,AI Software Suite,32,49033.60864890086,1569075.48,Austin Glover
+2023-03-06,Australia,Humanoid Robot A,31,10536.140557920713,326620.36,Bryan Coffey
+2023-09-10,Asia,AI Software Suite,3,42244.497426523565,126733.49,Lindsey Sweeney
+2024-06-27,Asia,Humanoid Robot B,6,29091.38166461129,174548.29,Andrew Williams
+2024-12-10,Europe,Maintenance Plan,19,36138.29763344132,686627.66,Nicholas Reed
+2023-07-25,Africa,Humanoid Robot A,32,22040.272514665594,705288.72,Tina Smith
+2023-08-28,South America,Humanoid Robot B,25,12383.562146196458,309589.05,Alyssa Joseph
+2024-12-16,Asia,Humanoid Robot A,17,27601.589168083858,469227.02,Robert Schneider
+2024-04-12,Africa,Humanoid Robot A,10,10084.130433102022,100841.3,Lisa Sweeney
+2024-12-16,South America,AI Software Suite,49,26277.31936354037,1287588.65,Allison Clark
+2024-10-29,North America,AI Software Suite,28,25209.92294690085,705877.84,Zachary Smith
+2024-02-20,Asia,Humanoid Robot A,39,32896.031857658585,1282945.24,Andrew Taylor
+2024-05-12,Asia,AI Software Suite,1,29235.55160420738,29235.55,Jessica Harris
+2023-05-28,Africa,Humanoid Robot B,16,28110.192936513315,449763.09,Tabitha Alvarado
+2024-02-25,Asia,Humanoid Robot A,23,24138.58070742695,555187.36,Thomas Lynch
+2023-10-02,Australia,Humanoid Robot B,2,17621.679040465446,35243.36,Tasha Stevens
+2023-03-07,Asia,Humanoid Robot B,4,30448.66897101773,121794.68,Alexander Townsend
+2023-04-05,Europe,Humanoid Robot A,36,27064.732378418623,974330.37,Brittany Foster
+2024-01-21,Africa,Humanoid Robot B,36,16425.56930633275,591320.5,Doris Garrison
+2024-08-23,Australia,Humanoid Robot A,21,19297.215032342654,405241.52,Nicholas Rose
+2023-02-16,North America,AI Software Suite,10,7897.608848157524,78976.09,Steve Jones
+2023-12-20,Europe,Humanoid Robot A,50,27062.429312072785,1353121.47,Lisa Cooper
+2023-04-28,Asia,Maintenance Plan,5,6950.771061848281,34753.86,Terri Floyd
+2024-10-25,Asia,Maintenance Plan,26,46251.31806286541,1202534.27,Mark Moore
+2024-12-19,Asia,AI Software Suite,9,8182.244107210277,73640.2,Gail Martin
+2023-01-25,Australia,AI Software Suite,5,41037.151664898556,205185.76,Daniel Arroyo
+2023-12-29,North America,Humanoid Robot B,21,33693.73468879329,707568.43,Jessica Campbell
+2024-09-16,South America,Humanoid Robot A,31,39656.44904547766,1229349.92,David Gill
+2023-07-21,Africa,Maintenance Plan,42,19674.50298967229,826329.13,Frank Stewart
+2024-05-14,Africa,Humanoid Robot B,4,8659.995580597957,34639.98,Hannah Miller
+2023-05-27,Australia,AI Software Suite,42,47759.73769312874,2005908.98,Jared Howard
+2024-02-10,Australia,Humanoid Robot A,14,36827.188618927,515580.64,Jennifer Miller
+2024-12-03,Europe,Maintenance Plan,9,46413.19715984227,417718.77,Andrew Reyes
+2024-08-01,Asia,AI Software Suite,3,10905.28041189416,32715.84,Teresa Rush
+2024-12-19,South America,Humanoid Robot B,10,10682.199723848094,106822.0,Belinda Lopez
+2023-03-16,South America,Humanoid Robot B,20,34808.32767754364,696166.55,Nancy Martin
+2024-01-12,South America,Humanoid Robot A,19,10631.596047645959,202000.32,Darlene Weeks
+2024-03-18,Asia,Humanoid Robot A,15,33320.65969903236,499809.9,Lisa Ibarra
+2024-05-18,Asia,Maintenance Plan,38,27411.415124766598,1041633.77,Zachary Williams MD
+2023-11-10,Europe,AI Software Suite,9,9382.673132594475,84444.06,Sharon Everett
+2023-08-12,Africa,Maintenance Plan,7,24363.06071405505,170541.42,Miguel Jackson
+2023-11-16,Europe,Humanoid Robot A,1,8471.172695478006,8471.17,Jessica Burke
+2023-02-23,Europe,Humanoid Robot A,31,43987.93418882058,1363625.96,Megan Jackson
+2024-01-22,Europe,AI Software Suite,48,20072.32306771307,963471.51,Aaron Booth
+2023-11-19,South America,Humanoid Robot A,46,32609.780404850375,1500049.9,Lisa Williams
+2024-10-19,Africa,Maintenance Plan,41,7967.767945445732,326678.49,Jennifer Hunter
+2023-03-26,Africa,Humanoid Robot B,41,22415.553135864557,919037.68,Melissa Graham
+2024-12-30,Africa,Humanoid Robot B,25,24653.60406848662,616340.1,Stephanie Hamilton
+2024-09-10,Europe,Maintenance Plan,22,15261.935095265046,335762.57,James Andrews
+2024-05-15,Asia,Humanoid Robot B,6,48262.606516296866,289575.64,Tom Martinez
+2024-01-26,North America,Maintenance Plan,40,11566.95172854144,462678.07,Cynthia Stokes
+2023-07-19,Australia,Humanoid Robot B,17,42140.45155085316,716387.68,Nicole Rodriguez
+2024-03-17,Europe,AI Software Suite,3,43380.09495879367,130140.28,Scott Jarvis
+2024-09-27,South America,Maintenance Plan,8,43192.84309612242,345542.74,Michael Sanders
+2023-11-07,Australia,Humanoid Robot A,30,45556.74098729953,1366702.23,Steven Graves
+2023-05-05,Asia,Humanoid Robot A,47,31373.32185170792,1474546.13,Brian Bauer
+2025-01-06,Europe,AI Software Suite,5,5377.316649790226,26886.58,Lindsay Olson
+2023-11-22,South America,Humanoid Robot B,13,18789.37749264521,244261.91,Pamela Johnston
+2023-02-24,Australia,AI Software Suite,2,47107.68331109495,94215.37,Janet Rivas
+2023-06-04,Asia,Humanoid Robot A,20,47181.70125927863,943634.03,Sarah Haney
+2023-10-30,North America,Humanoid Robot B,33,48812.916562053535,1610826.25,April Brooks MD
+2024-01-04,Asia,Maintenance Plan,45,33478.52716640847,1506533.72,Danielle Wright
+2024-12-18,Asia,AI Software Suite,19,18066.160961831774,343257.06,David Chambers
+2023-12-23,Africa,Humanoid Robot B,22,26241.01738145858,577302.38,Charles Rocha
+2023-11-05,Australia,AI Software Suite,3,32895.29569652021,98685.89,Jennifer Parker
+2023-03-19,Australia,AI Software Suite,40,10883.251922125197,435330.08,Mark Brandt
+2023-04-05,Asia,Humanoid Robot A,2,18989.8497589916,37979.7,Andrea Clements
+2024-08-13,Asia,AI Software Suite,22,7579.337736029836,166745.43,Robert Soto
+2025-01-02,North America,AI Software Suite,46,6880.765620026808,316515.22,Kelly Gomez
+2024-12-14,Asia,AI Software Suite,30,14860.079863841846,445802.4,James Velez
+2023-11-19,Australia,Humanoid Robot B,45,31153.802613759355,1401921.12,David Johnson
+2024-01-08,Europe,Maintenance Plan,42,32216.572009051102,1353096.02,Victor Johnson
+2023-10-25,North America,Maintenance Plan,18,13989.78841621051,251816.19,William Lawson
+2023-02-08,Africa,Humanoid Robot B,8,16829.118980288884,134632.95,Jill Williams
+2023-10-21,North America,Humanoid Robot B,41,7655.61219320224,313880.1,James Lee
+2024-04-30,Australia,AI Software Suite,2,38457.68929060564,76915.38,Kim Delgado
+2024-05-17,Asia,Humanoid Robot A,38,39849.615002117775,1514285.37,Ricky Cortez
+2023-03-18,South America,Humanoid Robot A,10,16983.991610311226,169839.92,Devon Willis
+2023-11-23,Africa,Maintenance Plan,10,33659.12921508858,336591.29,Sarah King
+2023-03-05,Asia,Humanoid Robot B,32,13732.367477623207,439435.76,Randy Acosta
+2024-04-19,Asia,Maintenance Plan,42,35108.02022303894,1474536.85,Maria Williams
+2024-06-16,South America,AI Software Suite,27,35756.307566010146,965420.3,Brian Ramos
+2023-07-08,North America,Maintenance Plan,41,45555.263211130376,1867765.79,Brittany Jackson
+2024-03-22,Australia,AI Software Suite,12,11379.437625473987,136553.25,Krista Reyes
+2024-02-01,Africa,Humanoid Robot B,5,36422.01863913517,182110.09,Matthew Lucas
+2024-08-28,Australia,Humanoid Robot B,5,44440.75150752437,222203.76,Charles Graves
+2023-09-25,Australia,AI Software Suite,49,28702.956949139123,1406444.89,Katie Flores
+2024-08-25,North America,Maintenance Plan,24,13766.8788342945,330405.09,Jessica Wheeler
+2024-10-04,Asia,AI Software Suite,36,16555.443426106114,595995.96,Stephen Ritter
+2024-09-04,Asia,Humanoid Robot B,37,38662.423630651094,1430509.67,Sheila Francis
+2024-12-02,North America,Humanoid Robot B,28,49460.89854434404,1384905.16,Patricia Hoffman
+2023-03-15,Australia,Humanoid Robot B,37,6379.354325059904,236036.11,Heather Newman
+2023-02-23,Africa,AI Software Suite,7,32917.070878725164,230419.5,Keith Logan
+2023-10-11,Australia,Humanoid Robot B,20,49087.48690787925,981749.74,Paula Davis
+2023-07-03,Europe,Maintenance Plan,18,34614.39156846935,623059.05,Kathryn Khan
+2023-04-10,Asia,Humanoid Robot B,47,12359.619684161818,580902.13,Rhonda Weaver
+2023-07-06,Europe,AI Software Suite,6,35773.87995923888,214643.28,Chelsea Robinson
+2024-08-08,Europe,AI Software Suite,9,48402.97461102086,435626.77,Carlos Green
+2023-07-14,South America,AI Software Suite,41,29570.57541045134,1212393.59,Jose Contreras
+2024-10-19,Africa,AI Software Suite,32,45055.17207882875,1441765.51,Allen Hansen
+2023-09-26,North America,Humanoid Robot A,32,24572.641908571495,786324.54,Melanie Abbott
+2023-12-17,Australia,Humanoid Robot B,1,16743.256026956107,16743.26,Robert Lambert
+2024-03-03,North America,Humanoid Robot A,24,8293.404860681136,199041.72,Dr. Crystal Williams DDS
+2023-09-12,Asia,Maintenance Plan,21,19722.302534681803,414168.35,Meagan Wright
+2024-07-11,South America,Maintenance Plan,24,45432.67418844784,1090384.18,Stephanie Richmond
+2024-12-24,Africa,AI Software Suite,40,5904.4665738692565,236178.66,Michelle Hoffman
+2024-11-09,Asia,Maintenance Plan,43,46458.727082916186,1997725.26,Warren Curtis
+2024-11-11,South America,Maintenance Plan,44,20819.145225110296,916042.39,Todd Simpson
+2023-12-06,Australia,Humanoid Robot B,35,24457.98523851505,856029.48,Kenneth Adams
+2023-12-19,North America,Maintenance Plan,17,48469.48486040752,823981.24,Keith Smith
+2024-01-26,Australia,Humanoid Robot A,5,6806.257635502623,34031.29,Barbara Gray
+2024-11-30,Asia,Maintenance Plan,20,19758.68497951656,395173.7,Natalie King
+2024-07-31,North America,Maintenance Plan,36,12777.088211841885,459975.18,Morgan Pena
+2024-10-25,Europe,Maintenance Plan,46,12476.218562489448,573906.05,William Little
+2024-04-21,Asia,Humanoid Robot A,38,36047.80486140709,1369816.58,Patrick Johnson
+2023-11-29,Asia,Humanoid Robot A,13,30750.179718404088,399752.34,Tommy Dixon
+2023-04-10,South America,Maintenance Plan,18,39235.867596930686,706245.62,Sandra Porter
+2024-06-14,North America,AI Software Suite,27,16737.187875618285,451904.07,Rhonda Elliott
+2024-12-21,Europe,Humanoid Robot A,20,9441.572758953262,188831.46,Joseph Gaines
+2023-06-17,North America,Humanoid Robot B,14,9255.951568282433,129583.32,Andrew Chapman
+2024-06-05,South America,Maintenance Plan,33,11390.67843777426,375892.39,Jennifer Williams
+2024-05-25,Africa,Humanoid Robot A,14,24302.70567173965,340237.88,Shelley Bryant
+2024-09-29,Australia,Humanoid Robot A,13,33188.87694456318,431455.4,Gregory Ford
+2023-03-31,Asia,Maintenance Plan,48,49604.57757889703,2381019.72,Ellen Schaefer
+2024-06-13,Europe,Humanoid Robot B,42,42155.22303624015,1770519.37,Amy Carter
+2023-02-10,Europe,Humanoid Robot A,46,29381.263999217415,1351538.14,Philip Bennett
+2023-11-21,Africa,AI Software Suite,18,33488.79397659232,602798.29,Kristen Price
+2023-02-07,Asia,AI Software Suite,40,24199.44640737724,967977.86,Ryan Kim
+2023-08-29,North America,Humanoid Robot A,31,19806.252020063548,613993.81,Sherry Wilson
+2024-09-13,Asia,Humanoid Robot B,10,46946.17052066296,469461.71,Kristen Jones
+2024-06-18,Europe,AI Software Suite,1,47837.09827140585,47837.1,Allison Garcia
+2024-04-21,Asia,Humanoid Robot B,1,29879.35540062595,29879.36,Tiffany Reilly
+2023-05-21,South America,Maintenance Plan,4,17240.41545664654,68961.66,Julie Russell
+2023-08-11,Africa,Humanoid Robot B,44,43556.297271210555,1916477.08,Theodore Bass
+2024-08-23,South America,AI Software Suite,40,26331.760888511264,1053270.44,Ryan Snow
+2023-07-14,Europe,AI Software Suite,1,31886.463667797827,31886.46,Edward Russell
+2024-10-07,North America,Humanoid Robot B,11,29654.629309101583,326200.92,Greg Parker
+2024-09-03,Europe,Humanoid Robot B,29,8365.232006023794,242591.73,Kevin Flores
+2024-08-28,South America,Humanoid Robot B,1,19221.313077257182,19221.31,Jason Brooks
+2023-04-06,South America,Humanoid Robot B,17,37598.75541994121,639178.84,Daniel Howard
+2023-02-14,Australia,Maintenance Plan,23,49921.23188771249,1148188.33,Daniel Martinez
+2023-12-26,Australia,Humanoid Robot B,36,10768.339959373485,387660.24,Jared Edwards
+2023-02-03,Africa,Humanoid Robot B,42,15774.861003058964,662544.16,Christine Allen
+2024-04-15,Australia,AI Software Suite,9,6233.587107855491,56102.28,Nicholas Smith
+2023-12-09,Australia,AI Software Suite,41,38474.936221234006,1577472.39,Wanda Chen
+2024-12-27,Europe,AI Software Suite,39,36847.32105350641,1437045.52,Jennifer Strickland
+2024-04-24,Australia,Humanoid Robot A,22,9524.083838988738,209529.84,Bobby Hahn
+2023-11-29,North America,AI Software Suite,38,8098.0714980334205,307726.72,Peter Vega
+2024-08-31,Africa,Humanoid Robot A,25,37765.00837792239,944125.21,Mackenzie Diaz
+2024-05-19,Australia,Humanoid Robot A,45,22851.68210384025,1028325.69,Denise Kennedy
+2025-01-15,Australia,Maintenance Plan,50,28162.252146752387,1408112.61,Brenda Hull
+2024-10-22,Australia,Humanoid Robot A,5,24867.296022006958,124336.48,Kara Willis
+2023-10-13,Europe,Humanoid Robot A,35,21215.231892471864,742533.12,Catherine Richardson
+2023-02-05,South America,AI Software Suite,24,9558.533540076074,229404.8,Henry Cameron
+2023-10-01,North America,Humanoid Robot B,29,33374.29825809962,967854.65,Thomas Martinez
+2024-10-10,Europe,Humanoid Robot B,7,37085.54895024469,259598.84,Mark Davis
+2023-05-02,Asia,Humanoid Robot A,47,27830.319164548928,1308025.0,Erin Wells
+2023-05-11,South America,Humanoid Robot A,8,30994.489999575773,247955.92,Gina Dodson
+2024-04-06,Africa,Humanoid Robot A,2,9293.074486077317,18586.15,Valerie King
+2024-05-15,Asia,Maintenance Plan,2,12636.895833312436,25273.79,Tara Romero
+2024-08-30,Africa,AI Software Suite,37,45082.5875776564,1668055.74,Alexandria Moore
+2024-11-03,Europe,AI Software Suite,40,47493.936771713095,1899757.47,Loretta Mitchell
+2024-05-03,North America,Humanoid Robot A,49,7170.141769057366,351336.95,Mary Edwards
+2025-01-01,Africa,AI Software Suite,28,17997.890824141592,503940.94,Samantha Nichols
+2023-07-16,Asia,AI Software Suite,31,30700.96363970088,951729.87,Jacqueline Howard
+2024-03-22,Europe,Maintenance Plan,2,17572.01995686769,35144.04,Peter Thompson
+2023-12-21,Africa,Humanoid Robot B,36,42429.54767256972,1527463.72,Timothy Mckay
+2024-08-25,Asia,Humanoid Robot B,34,33309.34173833337,1132517.62,Ashley Lee
+2024-03-01,Africa,Maintenance Plan,44,6424.818953760468,282692.03,Stephen Griffin MD
+2024-12-01,South America,AI Software Suite,20,21902.828819518625,438056.58,Kenneth Anderson
+2024-08-12,South America,Humanoid Robot B,11,41780.17467164596,459581.92,Rita Young
+2024-03-17,Asia,Humanoid Robot B,10,33797.492578081874,337974.93,Kayla Walker
+2024-07-24,South America,Maintenance Plan,35,23264.041958987862,814241.47,Daniel Turner
+2024-01-29,Asia,Humanoid Robot B,6,24183.371961236153,145100.23,Patricia Jackson
+2024-05-26,Africa,AI Software Suite,33,6089.621722323838,200957.52,Shane Yang
+2023-08-02,Europe,Humanoid Robot B,43,25039.169784874608,1076684.3,Regina Obrien
+2024-10-15,Africa,Humanoid Robot B,15,35483.874570071144,532258.12,Patricia Rogers
+2023-02-04,North America,Maintenance Plan,31,11688.101348560715,362331.14,Ryan Ferguson
+2023-05-12,North America,AI Software Suite,41,43726.71712616058,1792795.4,Jonathan Wheeler
+2024-02-15,Australia,Humanoid Robot A,14,27419.604302098276,383874.46,April French
+2025-01-11,North America,AI Software Suite,20,9627.449928895523,192549.0,Todd Gordon
+2024-05-12,North America,Humanoid Robot A,14,45021.97209772142,630307.61,Stacey Brown
+2023-05-28,Europe,AI Software Suite,29,12967.753648439291,376064.86,Nicole Soto
+2024-05-25,North America,Humanoid Robot B,34,49495.94682945849,1682862.19,Ryan Taylor
+2024-08-02,South America,Maintenance Plan,32,35958.470246675904,1150671.05,Jeffrey Dalton
+2024-04-13,Europe,Humanoid Robot A,38,44088.87856647815,1675377.39,Lisa Lopez
+2024-09-29,Africa,Maintenance Plan,49,30037.479342432405,1471836.49,Kimberly Contreras
+2024-10-04,Asia,AI Software Suite,10,36402.008226180806,364020.08,Nicole Perry
+2024-07-14,Asia,Humanoid Robot A,7,26348.63309725855,184440.43,Michael Duffy
+2024-06-16,Africa,AI Software Suite,46,29961.94435285923,1378249.44,Mr. Kristopher Frank DVM
+2024-06-08,Asia,Humanoid Robot B,48,30659.921568881324,1471676.24,Christopher Gutierrez
+2023-07-04,Africa,Maintenance Plan,2,49527.68106134493,99055.36,Caroline Smith
+2024-04-04,Asia,Humanoid Robot A,44,14084.257329221226,619707.32,Alicia Williams
+2023-04-17,South America,Maintenance Plan,48,33817.013722547505,1623216.66,Casey Hall
+2024-08-29,Asia,Humanoid Robot B,26,23485.239177554813,610616.22,Walter Colon
+2023-01-24,Australia,Humanoid Robot A,49,33144.99374457996,1624104.69,Jill Thornton
+2024-12-12,Australia,AI Software Suite,21,37800.830637786865,793817.44,Mikayla Burns
+2024-07-13,North America,Humanoid Robot B,50,35775.27962898761,1788763.98,Jeremiah Fritz
+2023-09-02,Asia,AI Software Suite,29,32866.40963271036,953125.88,Jeffery Gibson
+2023-12-30,South America,Humanoid Robot A,1,6693.643929786603,6693.64,Cory Lewis
+2023-07-01,Australia,Humanoid Robot B,38,41995.722116829456,1595837.44,Anne Sanchez
+2024-10-24,Australia,Humanoid Robot A,17,29050.260579531954,493854.43,Jennifer Foley
+2023-07-25,Europe,Humanoid Robot A,24,31308.024885576553,751392.6,Christine Campbell
+2024-12-02,South America,Humanoid Robot B,7,32162.034835308965,225134.24,Benjamin King
+2023-03-25,Australia,AI Software Suite,5,20820.781284268804,104103.91,April Smith
+2024-02-15,Australia,Humanoid Robot B,14,49157.09779909359,688199.37,Anthony Medina
+2024-03-07,Africa,Humanoid Robot B,13,27348.302991426408,355527.94,Kevin Webster
+2023-10-25,South America,Humanoid Robot B,16,40506.52108010486,648104.34,Joe Evans
+2024-02-15,Australia,Humanoid Robot A,13,11549.42391237624,150142.51,Tom Bauer
+2023-08-09,Europe,Humanoid Robot B,11,15504.530604942158,170549.84,Catherine Lopez
+2023-09-06,Africa,Humanoid Robot A,3,30743.222249099566,92229.67,John Owen
+2024-05-16,North America,AI Software Suite,16,46766.12429882354,748257.99,Vanessa Riley
+2023-11-03,North America,Maintenance Plan,19,47345.25160868695,899559.78,Michael Reynolds
+2023-04-09,Australia,Humanoid Robot B,16,32178.298381884808,514852.77,Christian Johnson
+2023-01-22,Africa,AI Software Suite,6,47760.101228666914,286560.61,James Scott
+2023-04-08,North America,Humanoid Robot A,8,23887.027235056357,191096.22,Ryan Scott
+2024-08-01,Asia,Maintenance Plan,18,34400.91247038223,619216.42,Christopher Smith
+2024-10-01,North America,AI Software Suite,13,16727.309029564676,217455.02,Drew Carey
+2023-04-15,Australia,AI Software Suite,25,40488.86842780607,1012221.71,Scott Banks
+2024-07-12,Australia,Humanoid Robot B,1,8350.70367192196,8350.7,Brittany Adkins
+2023-05-04,South America,Humanoid Robot B,33,13128.183940886258,433230.07,Michael Foster
+2024-09-17,Australia,Humanoid Robot B,12,41110.42204721192,493325.06,Kristina Gordon
+2024-03-07,Africa,Humanoid Robot A,46,9815.673183372346,451520.97,Amanda Warren
+2024-05-11,Europe,AI Software Suite,35,45886.49009760964,1606027.15,Brittany Greene
+2023-01-31,Europe,Humanoid Robot A,14,32006.758269968028,448094.62,Katherine Stewart
+2023-06-10,Australia,Maintenance Plan,17,17432.46255676088,296351.86,Monica Curtis
+2023-10-02,North America,AI Software Suite,36,45377.41687181469,1633587.01,Amy Hudson
+2023-03-17,Australia,AI Software Suite,40,35052.10816515186,1402084.33,Cindy Boyd
+2024-04-16,Europe,Maintenance Plan,41,34967.30627780519,1433659.56,Sabrina Smith
+2023-12-06,Australia,Humanoid Robot A,34,48190.28612287642,1638469.73,Amy Vance
+2024-01-13,North America,AI Software Suite,10,14666.13238983418,146661.32,David Gonzalez
+2024-05-11,South America,AI Software Suite,11,33132.905446774865,364461.96,Diane Webb
+2023-04-06,Australia,Maintenance Plan,22,29234.41881665112,643157.21,Stephen White
+2024-02-06,South America,Humanoid Robot B,41,22293.79455926345,914045.58,Nancy Lopez
+2023-10-09,Australia,Humanoid Robot B,20,27147.373496884305,542947.47,Matthew Delgado
+2024-12-27,Australia,AI Software Suite,32,39046.898388246125,1249500.75,Charles Walker
+2024-07-27,Europe,Maintenance Plan,17,14636.05900604785,248813.0,Adam Lopez
+2024-10-04,Australia,Maintenance Plan,33,36519.52655840812,1205144.38,Karen Turner
+2023-02-03,Africa,Humanoid Robot B,6,17802.324411228758,106813.95,Matthew Barron
+2023-10-15,North America,AI Software Suite,42,16851.151684259,707748.37,Dennis Cordova
+2024-12-13,Asia,Humanoid Robot A,10,41099.39899995678,410993.99,William Hester
+2023-08-03,South America,Humanoid Robot A,43,36185.49368566266,1555976.23,Matthew Richardson
+2024-03-04,Australia,Maintenance Plan,22,18617.417356881168,409583.18,Sean Martin
+2023-02-23,Asia,AI Software Suite,24,13228.296520948581,317479.12,Rebecca Spencer
+2025-01-02,Australia,Maintenance Plan,34,10211.545846828449,347192.56,Wendy Casey
+2023-09-07,Europe,Maintenance Plan,13,41968.308204713176,545588.01,Sara Fleming
+2024-05-14,Europe,Humanoid Robot A,29,27257.594165491195,790470.23,Brian Alvarez
+2023-06-09,Australia,Humanoid Robot B,20,10087.902207016483,201758.04,Michael Davidson
+2023-04-17,North America,Humanoid Robot B,1,31367.174757721787,31367.17,Marie Rangel
+2024-01-21,Africa,Maintenance Plan,12,9169.525645739395,110034.31,Robert Howell
+2025-01-14,Asia,Humanoid Robot A,35,24307.05223974195,850746.83,Megan Jones
+2023-06-12,Australia,Maintenance Plan,14,37472.65628156769,524617.19,April Kelley
+2023-09-23,Africa,Humanoid Robot A,5,16840.09006126025,84200.45,Mark Powell
+2024-03-15,Africa,AI Software Suite,13,10333.60889768719,134336.92,Virginia Foster
+2023-12-20,North America,Maintenance Plan,10,30976.718101771286,309767.18,Daniel Perez
+2024-01-12,South America,Maintenance Plan,10,29670.6034893712,296706.03,Travis Evans
+2024-02-12,Australia,Humanoid Robot B,34,6840.551919567572,232578.77,Kristina Burns
+2023-02-24,Australia,Humanoid Robot B,7,8111.161216449593,56778.13,Patricia Gonzales
+2024-03-19,Asia,Humanoid Robot A,37,25837.573873573052,955990.23,Sarah Bruce
+2024-08-10,Africa,AI Software Suite,13,48710.10780713561,633231.4,Kristin Martin
+2023-09-05,South America,Humanoid Robot B,28,48635.980743785505,1361807.46,Candice Brown
+2025-01-16,Australia,AI Software Suite,29,11151.322234268522,323388.34,Maria Ramirez DDS
+2024-05-08,South America,Humanoid Robot B,15,39940.52011716623,599107.8,Rebekah Gardner
+2023-11-26,Australia,Humanoid Robot B,8,43730.042536897934,349840.34,Kelsey Holmes
+2024-10-14,Europe,AI Software Suite,21,6669.583085780841,140061.24,Gabrielle Guerrero
+2023-12-23,Australia,Humanoid Robot B,7,34808.261245571885,243657.83,William Smith
+2024-01-21,North America,Humanoid Robot A,1,35951.31930008476,35951.32,Susan Glenn
+2024-12-11,Australia,Humanoid Robot B,47,23199.818290479503,1090391.46,Hayley Hall
+2024-01-01,North America,Maintenance Plan,49,36952.132781112174,1810654.51,Tony Mcgee
+2023-08-20,Australia,Humanoid Robot A,2,9223.868993039923,18447.74,Abigail Carpenter
+2024-05-21,South America,Humanoid Robot B,18,37781.61500325826,680069.07,Jake Jones
+2023-04-13,Asia,Humanoid Robot A,33,27103.050292780103,894400.66,Carol Chan
+2023-10-03,Australia,Humanoid Robot B,50,37159.226141237625,1857961.31,Teresa Williams
+2023-04-27,Australia,AI Software Suite,26,37718.00690230704,980668.18,Kimberly Ramsey
+2024-05-23,South America,AI Software Suite,16,5909.287343100398,94548.6,Angel Cross
+2024-02-18,North America,Humanoid Robot B,7,13251.094153508757,92757.66,Tommy Vargas
+2023-03-25,South America,Humanoid Robot B,5,47521.34834276644,237606.74,Marie Martinez
+2024-03-30,South America,Maintenance Plan,10,9916.401329737659,99164.01,Terry Cabrera
+2024-04-10,Asia,AI Software Suite,13,38658.15264569552,502555.98,Amy Smith
+2024-01-03,Europe,AI Software Suite,8,36808.842358257854,294470.74,Jennifer Williams
+2023-09-11,North America,AI Software Suite,5,33178.03090859343,165890.15,Matthew Shaw
+2024-02-20,South America,Humanoid Robot B,14,34308.16983850797,480314.38,Brett Brown
+2023-11-05,Australia,Humanoid Robot A,9,26598.20652155321,239383.86,Carrie Ross
+2023-11-07,South America,Humanoid Robot A,43,48624.05086907149,2090834.19,Nicole Baird
+2024-02-17,South America,AI Software Suite,46,6480.894476386044,298121.15,Lindsay Acevedo
+2024-12-20,Africa,Maintenance Plan,29,10490.190868684593,304215.54,Jennifer Blanchard
+2025-01-12,North America,AI Software Suite,14,19879.27333318029,278309.83,Matthew Dyer
+2023-09-24,South America,Maintenance Plan,3,44355.70654168063,133067.12,Cory Turner
+2023-01-30,Africa,Maintenance Plan,25,36502.6972354293,912567.43,Joseph Harmon
+2023-04-28,North America,Maintenance Plan,41,46940.059999389676,1924542.46,Mary Rodriguez
+2023-07-23,Asia,Humanoid Robot A,5,20800.1185259864,104000.59,Christopher Carroll
+2023-09-20,Australia,Maintenance Plan,36,47474.38785705127,1709077.96,Carla Torres
+2024-05-09,Asia,AI Software Suite,49,12957.840785589891,634934.2,Melissa Mora
+2023-02-16,Africa,AI Software Suite,40,22302.823034602774,892112.92,Brian Moss
+2024-02-07,Europe,Humanoid Robot B,23,16272.27097576579,374262.23,Tammy Mitchell
+2024-10-08,North America,Humanoid Robot B,25,39212.524962335825,980313.12,Cynthia Rodriguez
+2024-03-06,Africa,Maintenance Plan,16,34678.08064991623,554849.29,John Rowland
+2023-02-23,South America,Humanoid Robot B,16,35619.4453121433,569911.12,Michael Anderson
+2023-03-04,South America,AI Software Suite,3,13273.000177140353,39819.0,Cynthia Ochoa
+2024-04-03,South America,Humanoid Robot A,34,14024.074624066556,476818.54,Donna Long
+2024-10-24,Australia,Maintenance Plan,4,48367.230995108286,193468.92,Mrs. Rebecca White
+2024-03-30,North America,Humanoid Robot B,24,32879.03095675212,789096.74,Rebecca Rose
+2024-03-06,Europe,Maintenance Plan,20,37619.950891148175,752399.02,Brenda Bryant
+2023-09-26,North America,Humanoid Robot A,45,27364.72622706209,1231412.68,Sarah Baker
+2024-01-21,Europe,Humanoid Robot A,8,16171.113437417991,129368.91,Jennifer Walker
+2024-12-20,Asia,Humanoid Robot B,26,28369.173199677483,737598.5,Roy Forbes
+2024-12-10,Europe,AI Software Suite,29,35441.9024214681,1027815.17,Donald Ross
+2024-06-21,Europe,Humanoid Robot A,46,22472.695303141787,1033743.98,John Fuller
+2024-06-06,Asia,Maintenance Plan,11,47812.22537080338,525934.48,Mrs. Laura Mccarthy
+2023-12-03,Europe,Humanoid Robot B,17,46216.66849821933,785683.36,Teresa Garcia
+2024-01-12,Europe,Humanoid Robot A,9,14216.917556862489,127952.26,Jennifer Cunningham
+2024-10-12,Asia,Humanoid Robot B,16,34805.42991047425,556886.88,Kelly Smith
+2023-02-03,Africa,Humanoid Robot B,1,47775.90549954015,47775.91,James Jordan
+2024-04-12,North America,Humanoid Robot A,42,34741.438676423706,1459140.42,Daniel Maxwell
+2023-03-20,Europe,AI Software Suite,21,32806.18266904916,688929.84,Shawn Meadows
+2023-02-05,Asia,AI Software Suite,28,22415.95144077869,627646.64,George Stokes
+2023-05-10,Asia,Humanoid Robot A,12,31135.320166523135,373623.84,Robert Stone
+2024-05-13,South America,Humanoid Robot A,26,28472.4997221758,740284.99,Christopher Smith
+2024-03-23,South America,Humanoid Robot A,35,21682.41793420419,758884.63,Tonya Wright
+2024-07-09,Australia,Humanoid Robot A,16,36681.81080164654,586908.97,Jaime Mason
+2024-05-18,Africa,Humanoid Robot B,10,33583.176435021436,335831.76,Deborah Wilson
+2024-09-07,South America,Humanoid Robot A,48,9160.975242410683,439726.81,Lori Jordan
+2023-10-24,Asia,Humanoid Robot B,44,8445.873123441079,371618.42,Aaron Adams
+2024-08-24,Australia,Humanoid Robot B,23,33152.116656379294,762498.68,Candice Ross
+2024-12-26,Africa,AI Software Suite,26,34265.903152194354,890913.48,Colleen Cox
+2024-05-16,Asia,Maintenance Plan,41,40630.84402902125,1665864.61,Annette Davis
+2024-07-18,Africa,Humanoid Robot A,19,40093.51771816276,761776.84,Jay Jones
+2024-09-03,Africa,Humanoid Robot A,43,47390.7599408443,2037802.68,Colleen Crawford
+2024-05-05,South America,Humanoid Robot B,19,15954.955867611881,303144.16,Stephanie Weeks
+2024-12-21,Asia,Humanoid Robot B,5,8695.270888298768,43476.35,Andrew Allen
+2023-09-23,Africa,Maintenance Plan,37,31971.44819484088,1182943.58,Sarah Gutierrez
+2023-08-25,Asia,AI Software Suite,41,44179.16146499716,1811345.62,Christopher Kim
+2023-10-08,Africa,AI Software Suite,20,40723.34399972671,814466.88,Julian Reed
+2023-11-07,Asia,Humanoid Robot B,35,34530.8047233569,1208578.17,Elizabeth Wilson
+2023-11-20,Australia,Humanoid Robot A,29,38146.82426228581,1106257.9,Barbara Young
+2024-09-22,Africa,AI Software Suite,36,27404.391021677693,986558.08,Jennifer Campbell
+2023-06-06,Africa,Humanoid Robot B,30,29530.68128392371,885920.44,Brian King
+2024-07-24,Africa,Maintenance Plan,22,23819.56769073427,524030.49,Isaac Bryant
+2024-08-11,North America,Maintenance Plan,11,20045.608610647098,220501.69,Terry Adkins
+2024-09-14,Africa,Humanoid Robot A,35,22165.076566153784,775777.68,William Sanders
+2023-11-09,South America,Maintenance Plan,9,48591.320525433264,437321.88,Samuel Benjamin
+2023-05-23,South America,Humanoid Robot B,29,31893.051307276284,924898.49,Jason Kerr
+2024-05-08,South America,Humanoid Robot A,25,39826.75105013469,995668.78,Nicole Gregory
+2024-11-07,North America,Maintenance Plan,6,43797.72232548231,262786.33,Sonya Burns
+2024-03-20,Africa,AI Software Suite,42,44482.97491304706,1868284.95,Jennifer Hayes
+2023-12-05,Africa,Maintenance Plan,25,40037.415505546465,1000935.39,Eric Sanders
+2023-11-24,South America,AI Software Suite,36,43068.908077767825,1550480.69,Christopher Robinson
+2024-07-06,South America,Maintenance Plan,27,39661.99256658777,1070873.8,Latoya Bright
+2024-09-20,Australia,Humanoid Robot B,39,38503.61425946077,1501640.96,Kevin Golden
+2024-12-09,South America,Humanoid Robot B,29,47805.951661862266,1386372.6,Sharon Thompson
+2023-07-17,Europe,Humanoid Robot A,48,47101.08626380562,2260852.14,Frances Mcneil
+2024-04-15,Africa,Humanoid Robot A,42,14183.503062580745,595707.13,Jacob Hoffman
+2023-04-26,Asia,AI Software Suite,43,26912.770640294242,1157249.14,Chad Castillo
+2023-02-26,Europe,Humanoid Robot A,18,31279.686758633485,563034.36,Rachel Clay
+2024-10-18,South America,Maintenance Plan,28,8248.120513385786,230947.37,Darryl Ramirez
+2023-06-26,Australia,AI Software Suite,39,26038.308055649,1015494.01,Daniel Johnson
+2024-05-19,North America,AI Software Suite,30,29578.20496542854,887346.15,Tyler Martinez
+2024-09-14,Australia,Humanoid Robot B,16,9370.694917161896,149931.12,Chad Ward
+2024-01-06,Australia,Maintenance Plan,3,31713.322402103455,95139.97,Raymond Joyce
+2024-05-06,South America,AI Software Suite,42,25453.60720819882,1069051.5,Christine Grant
+2024-12-14,North America,Maintenance Plan,27,26988.476831466385,728688.87,Ian Brown
+2024-02-26,South America,AI Software Suite,12,39096.5761312273,469158.91,Joseph Turner
+2024-02-07,Australia,AI Software Suite,9,26438.492749834848,237946.43,Ashley Prince
+2023-09-24,Africa,AI Software Suite,16,12248.352460148593,195973.64,Mario Banks
+2023-01-25,Africa,Humanoid Robot A,3,33339.209458889156,100017.63,Michael Cunningham
+2023-11-07,North America,Humanoid Robot A,16,14459.425728274517,231350.81,Carolyn Shaffer
+2023-02-18,Asia,AI Software Suite,36,38945.4415615128,1402035.9,Daniel Bell
+2025-01-13,South America,AI Software Suite,31,38637.93623888455,1197776.02,Eric Hebert
+2024-05-23,Australia,AI Software Suite,48,26396.327875391635,1267023.74,Whitney Mendoza
+2023-11-21,South America,Humanoid Robot B,8,30009.699192583546,240077.59,Michael Cooke
+2025-01-19,South America,Humanoid Robot A,3,9210.273053745386,27630.82,Donald Hill
+2023-08-16,Asia,Maintenance Plan,13,19643.254948605972,255362.31,Lisa Lamb
+2023-06-28,Australia,Humanoid Robot B,29,33640.79497680239,975583.05,Holly Gallagher
+2024-02-03,Europe,AI Software Suite,10,42365.88393390159,423658.84,Mr. Joseph Best
+2023-08-20,Asia,Humanoid Robot B,21,49617.39347550057,1041965.26,Ryan Ward
+2024-09-15,Europe,Humanoid Robot B,23,5309.032937737104,122107.76,Elizabeth Castaneda
+2024-03-17,Europe,Humanoid Robot B,31,13027.269850175378,403845.37,Jesse Rodriguez
+2024-03-13,Africa,Humanoid Robot B,17,25379.89508436558,431458.22,Kevin Vasquez
+2023-06-08,Africa,Humanoid Robot A,5,15813.286805745742,79066.43,Tracy Wells
+2024-04-27,South America,AI Software Suite,31,36529.416274860836,1132411.9,Anthony Suarez
+2023-09-10,Europe,Humanoid Robot A,3,13894.385918368325,41683.16,Amy Nguyen
+2023-09-20,Australia,Humanoid Robot A,11,9584.895765545069,105433.85,Lynn Rodriguez
+2023-11-03,South America,Maintenance Plan,9,30153.855982796034,271384.7,Kevin Miller
+2023-09-23,Asia,Maintenance Plan,47,5769.905551432781,271185.56,Victor Avila
+2023-03-30,Europe,Humanoid Robot A,37,16741.028808584088,619418.07,Crystal Espinoza
+2024-03-17,North America,Humanoid Robot B,48,6241.031319096633,299569.5,Stacey Wolfe
+2024-04-02,North America,Humanoid Robot B,47,44130.81382520346,2074148.25,Heather Hardin
+2024-05-22,South America,Humanoid Robot A,50,13231.914447383966,661595.72,George Dominguez
+2023-07-25,Australia,AI Software Suite,19,43103.84406094056,818973.04,Lisa Hardy
+2024-03-30,Australia,Humanoid Robot A,31,48695.36764898431,1509556.4,Eric Jones
+2024-05-24,Africa,Humanoid Robot A,32,11928.545691477013,381713.46,Jordan Valdez
+2023-07-19,Europe,Humanoid Robot A,5,31373.401967603215,156867.01,Sergio Sullivan
+2024-03-30,South America,Humanoid Robot B,43,48450.10688637433,2083354.6,Kathryn Santiago
+2023-05-27,Africa,Humanoid Robot B,28,14670.133013861865,410763.72,Robert Cunningham
+2024-11-28,Asia,Humanoid Robot A,38,43752.78516697826,1662605.84,Dalton Edwards PhD
+2023-06-10,Africa,AI Software Suite,45,5391.787859516416,242630.45,Kari Houston
+2024-09-25,Europe,Maintenance Plan,39,44922.73429176007,1751986.64,Sean Vega
+2025-01-15,Australia,AI Software Suite,13,26328.43259490896,342269.62,Judy Bryant
+2023-12-21,South America,Humanoid Robot B,38,40340.33647352168,1532932.79,Elizabeth Nelson
+2024-11-11,Australia,Humanoid Robot B,11,12124.664683296516,133371.31,John King
+2023-04-10,Asia,Maintenance Plan,6,26814.8431066534,160889.06,Pamela Estrada
+2023-10-20,South America,Humanoid Robot A,16,32977.73697943562,527643.79,Kathryn Jones
+2024-08-31,Australia,AI Software Suite,14,39143.90252367193,548014.64,Ronald Choi
+2025-01-04,Asia,Humanoid Robot B,4,41045.24103412446,164180.96,Jose Walker
+2023-06-05,South America,Maintenance Plan,45,25525.519996116273,1148648.4,Yvette Horton
+2024-03-08,South America,AI Software Suite,39,17199.89062386081,670795.73,Joseph Roth
+2024-02-21,South America,Maintenance Plan,12,15586.048938265782,187032.59,Paul Buckley
+2024-09-12,North America,Maintenance Plan,28,43414.374062632414,1215602.47,Tim Randall
+2024-05-08,Europe,Maintenance Plan,36,23166.758833096545,834003.32,Dr. Angela Navarro
+2024-11-15,Africa,Humanoid Robot B,23,14835.86950176546,341225.0,Melissa Brown
+2024-05-19,North America,Humanoid Robot B,26,41269.421143591644,1073004.95,Carmen Zimmerman
+2023-03-04,Australia,Maintenance Plan,12,45463.82341143246,545565.88,Heather Cook
+2023-10-22,Europe,AI Software Suite,1,29811.012423811248,29811.01,William Smith
+2025-01-13,North America,Maintenance Plan,43,19758.40244472526,849611.31,Kelsey Cervantes
+2024-08-19,North America,Humanoid Robot B,1,31403.939638067284,31403.94,Shirley Banks
+2024-04-23,Africa,Humanoid Robot B,14,49575.06138006043,694050.86,Robert Rojas
+2023-10-31,Asia,Maintenance Plan,17,8366.13079256255,142224.22,Margaret Ray
+2024-04-05,Asia,Humanoid Robot A,18,33932.5710113377,610786.28,Vincent Castillo
+2024-12-20,Asia,Humanoid Robot B,40,25022.04996714066,1000882.0,Elizabeth Phillips DDS
+2024-07-27,South America,Maintenance Plan,28,32227.22162633175,902362.21,William Hernandez
+2024-04-04,Australia,Humanoid Robot A,8,17033.92865872807,136271.43,Douglas Johnson
+2023-06-25,Europe,Maintenance Plan,12,13909.552665032299,166914.63,Taylor Mills
+2023-12-06,Africa,Humanoid Robot A,29,35495.439243476896,1029367.74,Robert Hubbard
+2023-09-04,Australia,AI Software Suite,35,39446.357402556896,1380622.51,Mrs. Teresa French
+2025-01-07,North America,AI Software Suite,8,13452.78803822386,107622.3,Shannon Turner
+2024-11-14,North America,Humanoid Robot A,24,34001.61483571633,816038.76,Mrs. Michelle Johnson
+2024-04-14,South America,AI Software Suite,11,34754.12665233025,382295.39,Robert Hill
+2023-12-05,South America,Humanoid Robot B,6,13097.695745004026,78586.17,Justin Scott
+2024-05-08,Africa,AI Software Suite,21,44511.40106208554,934739.42,James Jones
+2023-07-15,Asia,Humanoid Robot A,48,10448.150436488046,501511.22,Trevor Morse
+2024-11-03,Europe,Humanoid Robot A,26,5169.971148489434,134419.25,Nicole Wall
+2024-05-02,North America,AI Software Suite,34,14753.419585505624,501616.27,Franklin Page
+2024-01-15,North America,Maintenance Plan,39,48732.0638958671,1900550.49,Marissa Francis
+2024-04-09,South America,AI Software Suite,11,23607.59174920846,259683.51,Steven Brown
+2024-05-03,Africa,Maintenance Plan,46,11705.1882740326,538438.66,Larry Howard
+2023-06-25,Australia,Humanoid Robot B,22,5497.951354338271,120954.93,Robert Whitney
+2023-09-24,North America,Humanoid Robot A,27,36623.340009281084,988830.18,Elizabeth Cox
+2023-09-26,Africa,Humanoid Robot A,24,13995.285064339823,335886.84,Ryan Woodard
+2024-09-19,Europe,AI Software Suite,50,17839.839417255454,891991.97,Sheila Bradford
+2023-11-25,Asia,AI Software Suite,7,34126.55831899115,238885.91,Ruth Adams
+2024-11-08,Europe,Humanoid Robot A,4,14132.003905471114,56528.02,Dawn Snow
+2023-12-04,South America,Maintenance Plan,28,43152.35623090167,1208265.97,Deborah Leach
+2023-02-18,South America,Humanoid Robot A,5,17040.8544385096,85204.27,Jason Stephens
+2023-03-31,South America,Maintenance Plan,33,18744.74333551738,618576.53,Nicholas Nguyen
+2024-07-14,Africa,AI Software Suite,4,36996.01614470361,147984.06,Regina Schneider
+2024-08-28,Australia,Maintenance Plan,47,40505.22391761348,1903745.52,John Olson
+2024-08-14,North America,Humanoid Robot A,16,31499.932678986926,503998.92,Jessica Banks
+2024-02-24,Australia,Humanoid Robot A,32,15423.775996380245,493560.83,Mr. Wesley Chang
