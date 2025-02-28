@@ -1,6 +1,12 @@
 # Build a Document Search Assistant with Node and OpenAI's Assistants API
 This is the repository for the LinkedIn Learning course Build a Document Search Assistant with Node and OpenAI's Assistants API. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
+
+## Course Description
+
+Learn to build a smart document search assistant within a Node web application using OpenAI's Assistants API. In this course, instructor Guil Hernandez shows you how to get started setting up a development environment and configuring the AI assistant for integration into a Node project using Express. Discover how to implement advanced search capabilities using the File Search tool and vector stores, as well as use the API's Code Interpreter tool, handle user input, generate customized responses, and manage conversation threads. By the end of this course, you'll be equipped with a fully functional AI assistant capable of searching documents.
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -29,6 +35,6 @@ To resolve this issue:
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/build-a-document-search-assistant-with-node-and-openai-s-assistants-api
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQFSaMbZdEEuQw/learning-public-crop_675_1200/B4EZUpj70dH0AY-/0/1740159041480?e=2147483647&v=beta&t=H3NVnGo6IVv-kL1C-0-4w-_xxO_Dmw90i2w8jIjXykE
 
